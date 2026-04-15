@@ -1,0 +1,225 @@
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: rgb(63, 63, 185); 
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.7);
+    left: 0;
+    top: 0; 
+    height: 100%;
+    position: fixed;
+    align-items: center; 
+    justify-content: space-evenly;
+    z-index: 1000;
+    width: 160px; 
+}
+
+.nav-bar a{
+    color: white;
+}
+
+.nav-bar p{
+    color: white; 
+}
+
+.picture-with-border{
+    background-color: rgb(167, 148, 189);
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px; 
+    height: 500px;
+    text-align: center;
+    padding: 10px; 
+    border: 10px solid black;
+    box-shadow: 0px 50px 50px rgba(6, 6, 58, 0.8);
+    margin-bottom: 60px;
+    transition: transform .2s ease;
+}
+
+.picture-with-border:hover{
+    transform: translateY(-4px);
+}
+
+body{
+    font-family: "Fira Code", monospace;
+    margin-left: 200px; 
+    background-image: linear-gradient(to right, gray, rgb(48, 48, 199));
+}
+
+.profile-picture{
+    padding: 10px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.text-and-image-landing-page{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.text-and-image-landing-page img {
+    order: 2;
+    height: 500px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: space-between;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+.text-and-image-landing-page ul {
+    margin-right: 100px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text-and-image-portfolio {
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 750px;
+    padding: 20px;
+    margin-inline-end: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    transition: transform .2s ease;
+}
+
+.text-and-image-portfolio:hover{
+    transform: translateY(-4px);
+}
+
+.text-and-image-portfolio img {
+    border: 10px solid rgb(148, 125, 125, 0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.text-and-image-portfolio p{
+   margin-bottom: 30px;
+}
+
+
+.aais-service-format{
+    display: flex;
+    gap: 15px;
+    border: 10px solid rgba(62, 95, 194, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
+}
+
+.uber-global-hackathon-service-format{
+    display: flex;
+    gap: 15px;
+    border: 10px solid rgba(76, 122, 141, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
+}
+
+
+.future-engineers-service-format{
+    display: flex;
+    gap: 15px;
+    border: 10px solid rgba(62, 95, 194, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin-right: 20px;
+}
+
+.service-images {
+    width: 400px; 
+    height:400px; 
+    gap: 10px;
+}
+
+.centering-text h3 {
+    font-size: 28px;
+    text-decoration:underline;
+    color: rgb(9, 58, 115);
+}
+
+.centering-text p {
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+
+.visa {
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+.button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(2,6,23,.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(172, 138, 200);
+    padding-top: 10px;
+    font-family: "Fira Code", monospace;
+}
+
+.button:hover{
+    transform: perspective(500px) scale3d(1, 1.05, 1.05) translateZ(100px);
+}
+
+
+.qualifications-page{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+table{
+  display: table !important;   
+  order: 2;                  
+}
+
+.resume-centering{
+    margin: 0 auto;
+    display: flex; 
+    width: fit-content;
+    height: fit-content;
+    align-items: center; 
+    justify-content: center;
+    order: 3;
+}
+
+table{
+  width: 1100px;
+  margin: auto;
+  border-spacing: 10px;
+  background: rgba(255,255,255,0.06);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  border-radius: 12px;
+  overflow: hidden;            
+  font-family: "Fira Code", monospace;
+  padding: 15px;
+}
+
+table th{
+    background: rgba(0,0,0,0.25);
+    padding: 14px 18px;
+    color: white;
+    border: 10px white;
+}
+
+table td{
+  padding: 14px 18px;
+  color: #e9e9ff;
+  border: 10px white;
+}
+
+li {
+    padding-bottom: 30px;
+}

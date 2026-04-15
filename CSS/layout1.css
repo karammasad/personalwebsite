@@ -1,0 +1,220 @@
+.nav-bar{
+    display: flex;
+    height: 50px;
+    background-color: #754100; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    position: fixed;
+    align-items: center; 
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.nav-bar a{
+    color: white;
+}
+
+.nav-bar p{
+    color: white; 
+}
+
+body{
+    font-family: 'Courier New', monospace;
+    background-color: rgba(235, 237, 213, 0.741);
+}
+
+h1 {
+    text-align: center;
+    border: 10px solid rgba(0, 0, 0, 0.1); 
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.profile-picture{
+    border-radius: 50%;
+}
+
+.button{
+    display:inline-flex; 
+    align-items:center; 
+    gap:8px;
+    padding:10px 14px; 
+    border-radius: 12px; 
+    border:1px solid rgba(2,6,23,.2);
+    color: #4f1c6de4; 
+    font-family: ui-sans-sherif;
+    box-shadow: 0 8px 18px rgba(2,6,23,.16);
+    transition: transform .2s ease, box-shadow .2s ease;
+    justify-content: center;
+}
+
+.button:hover{
+    transform: translateY(-4px) scale(1.10);
+    box-shadow: 0px 6px 14px rgba(0,0,0,0.7);
+}
+
+
+table {
+    width: 1000px;
+    border-radius: 1px; 
+    border: 5px solid black;
+    border-color: black;
+    margin: 0 auto;
+}
+
+
+.resume-centering{ 
+    margin: 0 auto;
+    display: flex; 
+    width: fit-content;
+    height: fit-content;
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+th {
+  border: 1px solid black; 
+  padding: 8px; 
+  border-style: dotted;
+  background-color: #ad824c; 
+}
+
+td
+{
+    border: 1px solid black; 
+    padding: 8px; 
+    border-style: dotted;
+}
+
+.picture-with-border {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 100px; 
+    justify-content: center;
+    box-shadow: inset 0px 0px 10px rgba(117, 65, 13, 0.8),
+                8px 8px 18px rgba(0, 0, 0, 0.6);
+}
+
+
+.text-and-image-landing-page {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 100px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.images-landing-page{
+    border-radius: 30px;
+    border: 10px solid black;
+}
+
+.visa {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    width: 1500px;
+    border: 10px solid black;
+    border-radius: 50px; 
+   
+}
+
+.projects-header {
+    text-align: center;
+    justify-content: center;
+}
+
+.text-and-image-portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+}
+
+.text-and-image-portfolio img{
+    width: 520px;
+    height: 460px;
+    border: 10px solid black;
+    border-radius: 40px;
+}
+
+.text-and-image-portfolio p{
+    padding: 30px 30px; 
+    width: 400px;
+    height: 400px;
+    margin: 0 auto; 
+    border: 10px solid black; 
+    background-color: azure;
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+}
+
+li {
+    padding-bottom: 30px;
+}
+
+.button-spacing{
+    display: flex; 
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.margin-for-nav-bar{
+    margin-bottom: 60px; 
+}
+
+.position-relative {
+    position: relative;
+}
+
+.aais-service-format{
+    background-color: azure; 
+    position: absolute; 
+    top: 30px; 
+    left: 200px;
+    width: 600px; 
+    border: 10px solid black; 
+    justify-content: center;
+}
+
+.uber-global-hackathon-service-format{
+    background-color: azure; 
+    position: absolute; 
+    top: 627px; right: 200px;
+    width: 600px; 
+    border: 10px solid black; 
+    justify-content: center;
+}
+
+.future-engineers-service-format{
+    background-color: azure; 
+    position: absolute; 
+    top: 1260px; left: 200px; 
+    width: 600px; 
+    border: 10px solid black; 
+    justify-content: center;
+}
+
+.service-images{
+    width: 400px; 
+    height:400px; 
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 10px;
+}
+
+.centering-text{
+    text-align: center;
+}
